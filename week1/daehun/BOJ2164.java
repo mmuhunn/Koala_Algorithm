@@ -3,38 +3,23 @@ import java.util.*;
 
 public class BOJ2164 {
     public static void main(String[] args) {
-/*
-큐로 들어간 N개의 수 중에서
- */
+        /*
+        카드의 숫자 N이 주어졌을때, 남은 수가 1이 될때까지 다음을 실행.
+        1. 가장 위에 있는 카드를 버림.
+        2. 두번째로 위에 있던 카드를 맨 밑으로 옮김.
+        그렇다면 큐에 1부터 N까지 수를 넣고 위의 작업을 실행.
+         */
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
-        for(int i=0; i<T; i++){
-            int N = sc.nextInt();
-            int M = sc.nextInt();
-
-            Queue<int[]> queue = new LinkedList<>();
-            PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-
-            for(int j=0; j<N; j++){
-                int priority = sc.nextInt();
-                queue.offer(new int[]{j, priority}); // node대신 array형식으로 {index, priority}의 크기가 2인 배열 생성.
-                pq.offer(priority);
-            }
-            int count = 0;
-
-            while(!queue.isEmpty()){
-                int[] current = queue.poll();
-                if(current[1] < pq.peek()){ //우선순위큐에서 가장 우선순위에 높은값보다 낮으면 다시 큐에 넣음
-                    queue.offer(current);
-                } else if (current[1] == pq.peek()) { // 같으면 출력
-                    pq.poll();
-                    count++;
-                    if(current[0] == M){ // 원하는 출력이면 count값 출력 후 정지.
-                        System.out.println(count);
-                        break;
-                    }
-                }
-            }
+        int N = sc.nextInt();
+        Queue<Integer> queue = new LinkedList<>();
+        for(int i=1; i<=N;i++){
+            queue.offer(i);
         }
+        while(queue.size() > 1){
+            queue.poll();
+            int num = queue.poll();
+            queue.offer(num);
+        }
+        System.out.println(queue.poll());
     }
 }
