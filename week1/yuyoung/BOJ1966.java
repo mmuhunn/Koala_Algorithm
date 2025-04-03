@@ -1,4 +1,4 @@
-package yuyeong;
+package yuyoung;
 
 import java.util.*;
 
@@ -20,24 +20,7 @@ public class BOJ1966 {
             int n =  sc.nextInt();
             int searchindex = sc.nextInt();
 
-            Queue<int[]> queue = new LinkedList<>();
-
-
-
-            for(int j = 0; j < n ; j ++){
-                int prio = sc.nextInt();
-                queue.offer(new int[]{j, prio});
-
-            }
-
-            while (!queue.contains()){
-
-            }
-
-
-
-
-
+            PriorityQueue<int[]> queue = new PriorityQueue<>();
 
 
         }
