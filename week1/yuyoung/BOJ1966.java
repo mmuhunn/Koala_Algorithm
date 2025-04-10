@@ -20,7 +20,9 @@ public class BOJ1966 {
             int n =  sc.nextInt();
             int searchindex = sc.nextInt();
 
-            PriorityQueue<int[]> queue = new PriorityQueue<>();
+            PriorityQueue<Integer> queue = new PriorityQueue<>();
+
+
 
 
         }

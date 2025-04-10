@@ -19,11 +19,9 @@ public class BOJ1874 {
         }
 
 
-
         Stack<Integer> stin = new Stack<>();
 
         ArrayList<String> answer = new ArrayList<>();
-
 
 
         for(int j = 0 ; j < n ; j++){
