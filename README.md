@@ -15,14 +15,14 @@
 |------|------|------------|--------------------------|
 | 1주차 | Stack & Queue | Set, String | [1874](https://www.acmicpc.net/problem/1874), [2164](https://www.acmicpc.net/problem/2164), [1966](https://www.acmicpc.net/problem/1966) |
 | 2주차 | Heap & Priority Queue | Brute Force 연계 | [11286](https://www.acmicpc.net/problem/11286), [1655](https://www.acmicpc.net/problem/1655) |
-| 3주차 | Greedy Algorithm | Greedy Algorithm | [11047](https://www.acmicpc.net/problem/11047), [1541](https://www.acmicpc.net/problem/1541), [1931](https://www.acmicpc.net/problem/1931) |
-| 4주차 | DFS / BFS | Graph I~III | [1260](https://www.acmicpc.net/problem/1260), [11724](https://www.acmicpc.net/problem/11724), [2606](https://www.acmicpc.net/problem/2606) |
-| 5주차 | 최단 경로 (Dijkstra) | Graph II | [1753](https://www.acmicpc.net/problem/1753), [1916](https://www.acmicpc.net/problem/1916) |
-| 6주차 | MST / 위상정렬 | Graph III | [1197](https://www.acmicpc.net/problem/1197), [2252](https://www.acmicpc.net/problem/2252) |
-| 7주차 | 이진탐색 & 분할 정복 | Divide & Conquer | [1920](https://www.acmicpc.net/problem/1920), [2805](https://www.acmicpc.net/problem/2805), [11728](https://www.acmicpc.net/problem/11728) |
-| 8주차 | 투 포인터 & 슬라이딩 윈도우 | Brute Force 심화 | [2018](https://www.acmicpc.net/problem/2018), [20922](https://www.acmicpc.net/problem/20922), [12891](https://www.acmicpc.net/problem/12891) |
-| 9주차 | DP 기초 | Dynamic Algorithm | [11726](https://www.acmicpc.net/problem/11726), [9095](https://www.acmicpc.net/problem/9095), [1149](https://www.acmicpc.net/problem/1149) |
-| 10주차 | 백트래킹 & 조합 | 보충 + 심화 | [1182](https://www.acmicpc.net/problem/1182), [15649](https://www.acmicpc.net/problem/15649), [1010](https://www.acmicpc.net/problem/1010) |
+| 3주차 | Greedy Algorithm | Greedy Algorithm | [Luck Balance](https://www.hackerrank.com/challenges/luck-balance/problem),[Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem)|
+| 4주차 | DFS / BFS | Graph I~III | [Connected Cell in a Grid (DFS)](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem), [Breadth First Search: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem)|
+| 5주차 | 최단 경로 (Dijkstra) | Graph II | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)|
+| 6주차 | MST / 위상정렬 | Graph III | [Prim's (MST): Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem)|
+| 7주차 | 이진탐색 & 분할 정복 | Divide & Conquer | [Binary Search Tree : Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem), [Merge Sort: Counting Inversions](https://www.hackerrank.com/challenges/ctci-merge-sort/problem)|
+| 8주차 | 투 포인터 & 슬라이딩 윈도우 | Brute Force 심화 | [Subarray Division](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem), [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem)|
+| 9주차 | DP 기초 | Dynamic Algorithm | [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem), [Candies](https://www.hackerrank.com/challenges/candies/problem)|
+| 10주차 | 백트래킹 & 조합 | 보충 + 심화 | [Backtracking: Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem), [Permutations of Strings](https://www.hackerrank.com/challenges/permutations-of-strings/problem?utm_source=chatgpt.com) |
 
 
 
