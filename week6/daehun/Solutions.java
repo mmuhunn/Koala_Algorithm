@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class Solution {
+public class Solutions {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -15,13 +15,13 @@ public class Solution {
 
         int n = Integer.parseInt(firstMultipleInput[0]);
 
-        int k = Integer.parseInt(firstMultipleInput[1]);
+        int m = Integer.parseInt(firstMultipleInput[1]);
 
-        List<List<Integer>> contests = new ArrayList<>();
+        List<List<Integer>> edges = new ArrayList<>();
 
-        IntStream.range(0, n).forEach(i -> {
+        IntStream.range(0, m).forEach(i -> {
             try {
-                contests.add(
+                edges.add(
                         Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
                                 .map(Integer::parseInt)
                                 .collect(toList())
@@ -31,7 +31,9 @@ public class Solution {
             }
         });
 
-        int result = luck_balance.luckBalance(k, contests);
+        int start = Integer.parseInt(bufferedReader.readLine().trim());
+
+        int result = PrimsAlgorithm.prims(n, edges, start);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
@@ -39,6 +41,4 @@ public class Solution {
         bufferedReader.close();
         bufferedWriter.close();
     }
-
-
 }
