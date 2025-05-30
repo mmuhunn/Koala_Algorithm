@@ -19,10 +19,8 @@
 | 4주차 | DFS / BFS | Graph I~III | [Connected Cell in a Grid (DFS)](https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/problem), [Breadth First Search: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem)|
 | 5주차 | 최단 경로 (Dijkstra) | Graph II | [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)|
 | 6주차 | MST / 위상정렬 | Graph III | [Prim's (MST): Special Subtree](https://www.hackerrank.com/challenges/primsmstsub/problem)|
-| 7주차 | 이진탐색 & 분할 정복 | Divide & Conquer | [Binary Search Tree : Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem), [Merge Sort: Counting Inversions](https://www.hackerrank.com/challenges/ctci-merge-sort/problem)|
-| 8주차 | 투 포인터 & 슬라이딩 윈도우 | Brute Force 심화 | [Subarray Division](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem), [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem)|
-| 9주차 | DP 기초 | Dynamic Algorithm | [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem), [Candies](https://www.hackerrank.com/challenges/candies/problem)|
-| 10주차 | 백트래킹 & 조합 | 보충 + 심화 | [Backtracking: Crossword Puzzle](https://www.hackerrank.com/challenges/crossword-puzzle/problem), [Permutations of Strings](https://www.hackerrank.com/challenges/permutations-of-strings/problem?utm_source=chatgpt.com) |
+| 7주차 | 이진탐색 & 분할 정복 | Divide & Conquer | [Binary Search Tree : Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem)|
+| 8주차 |  DP 기초 | Dynamic Algorithm | [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem), [Candies](https://www.hackerrank.com/challenges/candies/problem)|
 
 
 
